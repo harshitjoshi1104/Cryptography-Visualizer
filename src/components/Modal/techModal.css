@@ -1,0 +1,10 @@
+.techniqueModal{
+    width: 20%;
+    height: 70vh;
+    background-color: aliceblue;
+    position: fixed;
+    top: 10%;
+    left: 65%;
+    border-radius: 10px;
+}
+

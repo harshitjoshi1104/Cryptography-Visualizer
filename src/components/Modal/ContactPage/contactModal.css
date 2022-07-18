@@ -1,0 +1,73 @@
+.contact-form{
+    width: 30%;
+    height: 70%;
+    /* background:rgba(255,255,255,0.9); */
+    border: none;
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    z-index: 200;
+}
+
+.backdrop{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.9);
+    z-index: 20;
+}
+
+.form-creater{
+    background:rgba(255,255,255,0.6);
+    padding: 4mm;
+    width: 96%;
+    height: 96%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    z-index: 200;
+}
+.name-div{
+    width: 98%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-contact-form{
+    background:rgba(0,0,0,0.9);
+    border: none;
+    color: white;
+}
+.btn-contact-form{
+    width:100%;
+    display: flex;
+    height: 40px;
+    justify-content: space-evenly;
+}
+#submit-btn{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(39, 141, 204);
+    border:none;
+    border-top:2px solid rgb(12, 184, 166);
+    border-left:2px solid rgb(12, 184, 166);
+}
+#submit-btn:hover{
+    background-color: rgb(17, 93, 159);
+}
+
+#cancel-btn{
+    width: 100px;
+    height: 40px;
+}

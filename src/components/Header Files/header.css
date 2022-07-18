@@ -1,0 +1,74 @@
+.mainHeader{
+    width: 100%;
+    height: 10vh;
+    background:rgba(0,0,0,0.8);
+    display: flex;
+    flex-direction: row;
+    z-index: 10;
+    /* color: white; */
+    color: #797D84;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: center;
+}
+
+#logo-main{
+    /* background-color: #d86163; */
+    font-family: 'Mea Culpa', cursive;
+    display: none;
+    letter-spacing: 2mm;
+    width: 30%;
+    height: 100%;
+    text-decoration: underline;
+    font-size: 6vh;
+    /* border: 5px solid rgb(0, 140, 255); */
+    margin: 0;
+    /* transform: rotateZ(-10deg); */
+    /* color: rgb(0, 140, 255); */
+    color:tomato
+    
+}
+
+.header-right{
+    display: flex;
+    width: 70%;
+    font-size: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green  ; */
+}
+
+
+.header-left{
+    display: none;
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-items{
+    margin-right:15mm;
+    font-size: 15px;
+    font-family: "Poppins",sans-serif;
+    letter-spacing: 0.7mm;
+    /* width: h; */
+}
+
+.head-items:hover{
+    color: #d86163;
+    color: azure;
+    border-bottom: 2px solid azure;
+    cursor: pointer;
+}
+
+.head-items:active{
+    /* color: #d86163; */
+    color: azure;
+    border-bottom: 2px solid azure;
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.visual-modal{
+    position:fixed;
+    align-self:auto;
+    /* top: 30%; */
+    left: 20%;
+    display: flex;
+    /* width: 500px; */
+    /* height: 200px; */
+    /* background-color: aqua; */
+}
+
+.imageVis{
+    z-index: 100;
+    cursor: pointer;
+}

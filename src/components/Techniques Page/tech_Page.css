@@ -1,0 +1,183 @@
+.tech-main-page{
+    margin-top: 1rem;
+    width: 100%;
+    overflow: hidden;
+    height:88vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1.5cm;
+}
+
+.selection-box{
+    background-color: wheat;
+    background-color: #006E00;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.description-tech{
+    border-top: 1px white solid;
+    border-left: 1px white solid;
+
+    width: 45%;
+    height: 95%;
+    padding:3mm ;
+    overflow-y: scroll;
+    /* background-color: #1E1E1E; */
+    background: rgba(0,0,0,0.8);
+    /* border-radius: 10px; */
+    /* transform: rotateY(-30deg); */
+    /* transform: */
+}
+
+
+.description-tech::-webkit-scrollbar {
+    width: 12px;
+}
+
+.description-tech::-webkit-scrollbar-track {
+    box-shadow: 0px 0px 0px #000000,0px 0px 0px #000000,0px 0px 0px #000000 ;
+
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+.description-tech::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px #000000,0px 0px 0px #000000,0px 0px 0px #000000 ;
+
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.conversion-container{
+    padding: 3mm;
+    width: 45%;
+    height: 95%;
+    background-color: rgba(255,255,255,0.2);
+    border-top: 1px white solid;
+    border-left: 1px white solid;
+    box-shadow:20px 20px 0px #000,20px 20px 20px #000,20px 20px 80px #000;
+    /* background-image: url('../../assets/hackingImage.webp'); */
+    opacity: 0.9;
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    /* overflow: scroll; */
+    /* scrollbar-base-color: #1E1E1E; */
+    /* scrollbar-color:green; */
+    /* border-radius: 10px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: 400;
+}
+
+.plain-text{
+    /* width: 98; */
+    /* height: 30%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    /* background-color: blue; */
+    /* border-radius: 5px; */
+    overflow: hidden;
+    color: rgb(0, 140, 255);
+
+    background: rgba(0,0,0,0.3);
+    font-weight: 900;
+    /* font-size: 20px; */
+    /* opacity: 100; */
+}
+
+.key-text{
+    /* width: 98%; */
+    /* height: 30%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    /* border-radius: 5px; */
+    overflow: hidden;
+}
+
+.cipher-text{
+    /* width: 98; */
+    /* height: 30%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    /* border-radius: 5px; */
+    overflow: hidden;
+}
+
+
+.moveBar{
+    width: 30px;
+    height: 30px;
+    border-top: 5px solid #006E00;
+    border-left: 5px solid #316431;
+    border-right: 5px solid #014d01b7;
+    border-bottom: 5px solid #617461;
+    border-radius: 50%;
+    position: relative;
+    /* background-color: #006E00; */
+    animation: movingBar infinite 3s;
+}
+
+@keyframes movingBar {
+    0%{
+        left: 0px;
+        transform: rotateZ(0deg);
+        border-top: 5px solid #006E00;
+        border-left: 5px solid #316431;
+        border-right: 5px solid #014d01b7;
+        border-bottom: 5px solid #617461;
+        border-radius: 50%;
+    }
+    25%{
+        left: 200px;
+        transform: rotateZ(180deg);
+        border-top: 5px solid #6e1600;
+        border-left: 5px solid #cf2121;
+        border-right: 5px solid #7e0f07b7;
+        border-bottom: 5px solid #ad6f6f;
+        border-radius: 50%;
+        box-shadow: 0px 0px 0px #7e0f07b7,0px 0px 20px #7e0f07b7,0px 0px 80px #7e0f07b7;
+    }
+    50%{
+        left: -20px;
+        transform: rotateZ(0deg);
+        border-top: 5px solid #006E00;
+        border-left: 5px solid #316431;
+        border-right: 5px solid #014d01b7;
+        border-bottom: 5px solid #617461;
+        border-radius: 50%;
+    }
+    75%{
+        left: 200px;
+        transform: rotateZ(180deg);
+        border-top: 5px solid #6e1600;
+        border-left: 5px solid #cf2121;
+        border-right: 5px solid #7e0f07b7;
+        border-bottom: 5px solid #ad6f6f;
+        border-radius: 50%;
+        box-shadow: 0px 0px 0px #7e0f07b7,0px 0px 20px #7e0f07b7,0px 0px 80px #7e0f07b7;
+
+    }
+    100%{
+        left: -20px;
+        transform: rotateZ(0deg);
+        border-top: 5px solid #006E00;
+        border-left: 5px solid #316431;
+        border-right: 5px solid #014d01b7;
+        border-bottom: 5px solid #617461;
+        border-radius: 50%;
+    }
+}
+
